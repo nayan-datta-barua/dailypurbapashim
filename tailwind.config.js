@@ -12,6 +12,9 @@ export default {
         'mono': ['ui-monospace', 'SFMono-Regular'],
         'display': ['Oswald'],
         'body': ['"Open Sans"'],
+      },
+      gridTemplateColumns:{
+        '70/30':'70%:30%',
       }
     },
   },
