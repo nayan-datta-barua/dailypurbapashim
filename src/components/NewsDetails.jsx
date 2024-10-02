@@ -77,7 +77,7 @@ const NewsDetail = () => {
           <div className='lg:col-span-2 h-full'>
             {category.map((data) => (
               <div key={data.id}>
-                <div>
+                <div className='w-full items-center justify-center'>
                   <img
                     src={`${data.image}`}
                     className='mb-3 w-5/6 lg:w-full lg:h-4/6'
