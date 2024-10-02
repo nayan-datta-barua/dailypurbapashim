@@ -21,4 +21,7 @@ export default {
     },
   },
   plugins: [],
+  build: {
+    outDir: 'dist', // Ensure Netlify points to the correct directory
+  },
 }
